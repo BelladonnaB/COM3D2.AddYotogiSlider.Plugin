@@ -134,7 +134,7 @@ namespace COM3D2.AddYotogiSlider.Plugin
         private int iBoteCount = 0;   //中出し回数
 
         //AutoKUPA
-        private bool bKupaAvailable = false;             //BodyShapeKeyチェック
+        private bool bKupaAvailable = true;             //BodyShapeKeyチェック
         private bool bKupaFuck = false;             //挿入しているかどうか
         private float fKupaLevel = 70f;         //拡張bodyに対して何％小さく挙動するか
         private float fLabiaKupa = 0f;
